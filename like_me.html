@@ -1,0 +1,99 @@
+<!doctype html>
+  <head>
+    <title> Do you like me survey </title>
+    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    </head>
+    <!--Title and header-->
+  <body>
+    <div class="container">
+      <header class="header">
+      <h1 id="title"> Do you like me?</h1>
+        <p id="description"> Do you like me? What can I do better? Take this survey and let me know! </p> 
+      </header>
+    <!--Name field-->
+     <form id="survey-form" class="survey-form">
+       <div class="form-fields">
+         <label id="name-label" for="name"> Name </label>
+          <input type="text" id="name" class="form-box" placeholder="What is your name?" required>
+       </div>
+    <!--Email field-->
+       <div class="form-fields">
+         <label id="email-label" for="email"> Email </label>
+          <input type="email" id="email" class="form-box" placeholder="What is your email?" required>
+       </div>
+    <!--Pie field-->
+       <div class="form-fields">
+       <label id="number-label" for="number"> Pie </label>
+          <input type="number" id="number" name="Age"   
+                 class="form-box" 
+                 placeholder="How many pies can you eat? (Important)" 
+                 min="15" max="99" required>
+       </div>
+    <!--Dropdown for favorite film-->
+       <div class="form-fields">
+         <label for="dropdown"> Favorite Film </label>
+         <select id="dropdown"name="film" class="form-box" required>
+           <option disabled selected value> Select your favorite film</option>
+           <option value="tkam">To Kill a Mockingbird</option>
+           <option value="starwars"> Star Wars (1977)</option>
+           <option value="pulp"> Pulp Fiction</option>
+           <option value="santa"> The Santa Clause</option>
+           <option value="other"> Other (I Have Bad Taste)           </option>
+         </select>
+       </div> 
+    <!--How much do you like me radio buttons-->  
+       <div class="form-fields">
+          <p> How much do you like me? </p>
+          <label> 
+          <input type="radio" name="like" value="alot" class="radio">
+            A lot
+          </label>
+          <label> 
+          <input type="radio" name="like" value="even-more" class="radio">
+            Even more
+          </label>
+          <label> 
+          <input type="radio" name="like" value="enough" class="radio">
+            Enough
+          </label>
+          <label> 
+          <input type="radio" name="like" value="dont" class="radio">
+            I don't :(
+          </label>
+        </div>
+    <!--What can I do better-->
+       <div class="form-fields">
+         <p>What can I do better?</p>
+         <label>
+           <input type="checkbox" value="nothing" class="checkbox">
+           Nothing
+           </label>
+           <label>
+           <input type="checkbox" value="nothing" class="checkbox">
+           Nothing
+           </label>
+           <label>
+           <input type="checkbox" value="nothing" class="checkbox">
+           Nothing
+           </label>
+           <label>
+           <input type="checkbox" value="nothing" class="checkbox">
+           Nothing
+           </label>
+        </div>
+    <!--Comments-->
+       <div class="form-fields"> 
+         <p> Comments? Suggestions? Give 'em here!</p>
+         <textarea id="comments" class="textarea" name="comments" placeholder="Please don't give me any please thanks"></textarea>
+         
+        </div>
+       <div class="form-fields">
+         <button type="submit" id="submit" class="submit-button"> Submit! </button>
+       </div>
+     
+       </div>
+     </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+:root{
+  box-sizing: border-box;
+}
+
+/*Global settings*/
+
+body {
+  font-family: 'Oswald', sans-serif;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  margin:0;
+  background: #EC8CB8;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: .005rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/*Sizing*/
+
+.container{
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px
+  }
+
+}
+/*Header, forms, and structure settings*/
+
+.header {
+    text-align: center;
+}
+
+form {
+  background: #0CA5E8;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+button{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2rem;
+  border: none;
+}
+
+input {
+  font-family: 'Oswald', sans-serif;
+}
+
+select {
+  font-family: 'Oswald', sans-serif;
+  font-size: 0.9rem;
+}
+
+textarea{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem
+}
+
+.form-fields {
+  margin: 0 auto 1.25rem auto;
+  font-size: 1.1rem;
+}
+
+.form-box {
+  display: block;
+  width: 100%;
+}
+.textarea {
+  width: 100%;
+  min-height: 100px;
+  resize: vertical;
+}
+.checkbox {
+  display: inline-block;
+  margin-right: 0.425rem;
+  min-height: 1.05rem;
+  min-width: 1.05rem;
+}
+.radio{
+  display: inline-block;
+  margin-right: 0.425rem;
+  min-height: 1.05rem;
+  min-width: 1.05rem;
+}
