@@ -1,1 +1,1 @@
-This is  a silly little thing I made to get the basics of HTML forms and to get used to box sizing in CSS. 
+A silly little thing I made to showcase my excellent sense of humor, as well as my ability to make basic forms from scratch using HTML and CSS. 
